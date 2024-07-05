@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts-build && node-sass src/style.scss build/style.css && node-sass src/editor scss build/editor.css",
+    "start": "wp_scripts start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.2.0",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^13.2.0"
+  }
+}

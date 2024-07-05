@@ -1,0 +1,56 @@
+/*Header styles*/
+.my-main-menu{
+    width: 90%;
+    margin: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(87, 140, 140);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+.custom-logo{
+    max-width: 4rem;
+}
+.my-main-menu .site-title{
+    display: inline-flex;
+}
+.my-navbar{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.my-navbar li{
+    list-style: none;
+    color: white;
+}
+.my-navbar li a{
+    color: white;
+}
+
+/*General styles*/
+
+.relative-container.elementor-element{
+    position: relative;
+    min-height: 80vh;
+}
+
+.background-elemente.elementor-widget{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 100%;
+    max-width: unset;
+    object-fit: cover;
+}
+
